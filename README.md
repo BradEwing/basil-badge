@@ -4,4 +4,12 @@ A lightweight Go HTTP server to parse the [BASIL data server rankings](https://d
 
 ## Examples
 
-![BASIL](https://img.shields.io/endpoint?url=https://basil-badge-production.up.railway.app/badge/Infested%20Artosis)
+### Infested Artosis
+[![BASIL](https://img.shields.io/endpoint?url=https%3A//basil-badge-production.up.railway.app/badge/Infested%2520Artosis)](https://www.basil-ladder.net/ranking.html)
+
+### PurpleWave
+[![BASIL](https://img.shields.io/endpoint?url=https%3A//basil-badge-production.up.railway.app/badge/PurpleWave)](ttps://www.basil-ladder.net/ranking.html)
+
+
+### McRave
+[![BASIL](https://img.shields.io/endpoint?url=https%3A//basil-badge-production.up.railway.app/badge/McRave)](https://www.basil-ladder.net/ranking.html)
