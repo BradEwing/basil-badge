@@ -85,6 +85,7 @@ func (a *api) BadgeHandler(w http.ResponseWriter, r *http.Request) {
 		Message:       fmt.Sprintf("%d ELO (%s)", bot.Rating, bot.Rank),
 		Color:         color,
 	}
+	a.logger.Info("fetched bot", zap.String("name", botName), zap.String("rank", bot.Rank), zap.Int("rating", bot.Rating))
 
 	json.NewEncoder(w).Encode(response)
 }
